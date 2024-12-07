@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiplication Table</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <h1>Escolha a tabuada que iremos calcular:</h1>
+    
+    <div class="range_buttons">
+      <label for="table_key_value"> Índice da Tabuada: 
+        <input type="number" id="table_key_value" />
+      </label>
+      <button onclick="generateTable()">Gerar</button>
+    </div>
+
+    <div class="table"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
